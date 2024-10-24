@@ -28,7 +28,7 @@ users_collection = db.users
 bot = telebot.TeleBot(TOKEN)
 REQUEST_INTERVAL = 1
 
-blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
+blocked_ports = [8700, 00000, 443, 12000, 9031, 20111, 22221]
 
 running_processes = []
 
@@ -172,7 +172,7 @@ def send_welcome(message):
 
     # Create buttons
     btn1 = KeyboardButton("Instant Plan 🧡")
-    btn2 = KeyboardButton("Instant++ Plan 💥")
+    btn2 = KeyboardButton("FUCK BGMI ☠️☠️☠️")
     btn3 = KeyboardButton("Canary Download✔️")
     btn4 = KeyboardButton("My Account🏦")
     btn5 = KeyboardButton("Help❓")
